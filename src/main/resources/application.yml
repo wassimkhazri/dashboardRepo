@@ -1,0 +1,72 @@
+#server:
+# port: 9192
+#spring:
+# autoconfigure:
+#    exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+# datasourte:
+#  username: root
+#  password: User1234@
+#  url: jdbc:mysql://localhost:3306/hotel_db
+#  driver-class-nane: com.mysql.cj.jdbc.Driver
+#Jpa:
+# show-sql: true
+# hibernate:
+#  ddl-auto : update
+#  format_sql: true
+#  dialect: org.hibernate.dialect.MySQL5Dialect
+#  #hbm2ddl.auto: update
+#servlet:
+# multipart:
+# max-file-size: 5MB
+# max-request-size: 5MB
+# file-size-threshold: 2KB
+
+
+
+
+
+
+
+
+
+
+#server:
+#  port: 9192
+#
+#spring:
+#  datasource:
+#    username: root
+#    password: User1234@
+#    url: jdbc:mysql://localhost:3306/lakeSide_hotel_db
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#  jpa:
+#    show-sql: true
+#    hibernate:
+#      ddl-auto: update
+#      format_sql: true
+#  servlet:
+#    multipart:
+#    max-file-size: 5MB
+#    max-request-size: 5MB
+#    file-size-threshold: 2KB
+#
+#    security:
+#      jwt:
+#        secret-key: 36763979244226452948404D635166546A576D5A7134743777217A25432A462D
+#        expire-length: 3600000
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
+#
