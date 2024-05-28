@@ -1,0 +1,14 @@
+netstat -ano | findstr :3000
+
+npx kill-port 3000
+
+
+
+<configuration>
+    <system.windows.forms jitDebugging="true" />
+</configuration>
+
+
+Lorsque le débogage juste-à-temps est activé, les exceptions non gérées
+seront envoyées au débogueur JIT inscrit sur l'ordinateur
+plutôt que d'être gérées par cette boîte de dialogue.
